@@ -16,5 +16,5 @@ Then install:
 
     > ./install.sh
 
-If you don't do this, CoffeeScript will, by default, wrap every file in a (function() { }).call(); which will make global variables (like the MiniMongo LocalCollections) invisible outside of the file they're defined in.
+If you don't do this, CoffeeScript will, by default, wrap every file in <code>(function() { ... }).call();</code> which will make global variables (like the MiniMongo LocalCollections) invisible outside of the file they're defined in.
 
