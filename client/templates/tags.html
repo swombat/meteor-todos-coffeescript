@@ -1,0 +1,21 @@
+<template name="todo_tag">
+  <div class="tag removable_tag">
+    <div class="name">{{tag}}</div>
+    <div class="remove"></div>
+  </div>
+</template>
+
+<template name="tag_filter">
+  <div id="tag-filter" class="tag-list">
+    <div class="label">Show:</div>
+    {{#each tags}}
+      {{> tag_item}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="tag_item">
+  <div class="tag {{selected}}">
+    {{tag_text}} <span class="count">({{count}})</span>
+  </div>
+</template>
