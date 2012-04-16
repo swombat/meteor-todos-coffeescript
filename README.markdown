@@ -4,8 +4,6 @@ This is my conversion of the Todos example to coffeescript. I also tidied up the
 
 ## Installation notes
 
-Since the git repo doesn't include the .meteor folder, I imagine you need to run <code>meteor add coffeescript</code> manually to get this to work.
-
 Assuming the good folks at Meteor haven't included that in the main repo yet, you also need to pull a [specific commit](https://github.com/JasonGiedymin/meteor/commit/6452d98bf3678ab56fe840ae65f5a6d45b18e353) from [Jason Giedymin's fork](https://github.com/JasonGiedymin/meteor). Instructions to pull a given commit from a fork are [here](http://stackoverflow.com/questions/6022302/pull-requests-from-other-forks-into-my-fork).
 
 In short, after making your own fork:
